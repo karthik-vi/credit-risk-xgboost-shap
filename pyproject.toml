@@ -1,0 +1,9 @@
+[project]
+name = "credit"
+version = "0.1.0"
+description = "Reconstruction: XGBoost credit-risk model with SHAP explanations and fairness/validation checks on UCI German Credit"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
